@@ -32,7 +32,7 @@ public class Notas {
     private static boolean isValidGrade (double grade) {
         return grade<=10 && grade>=0;
     }
-    private static void result(){
+    private static void showResult(){
 //        System.out.println("grades quantity: "+grades.size());
 //        System.out.println("grades: "+grades);
         System.out.printf("grades media: %.2f || Result: ",total/grades.size());
