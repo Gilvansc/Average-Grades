@@ -20,7 +20,7 @@ public class Notas {
             }
             System.out.print("one more grade? (Y/N)");
         }while(input.next().contains("y"));
-    result();
+    showResult();
     }
 
     private static void addGrade(double grade){
